@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: NITHYASRI T
+* **Register Number**: 212225220068
+* **Date of Submission**: 29/10/2026
 
 ---
 
@@ -87,13 +87,11 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
----
+1. I started the lab and logged into the Amazon Web Services Management Console in the N. Virginia (us-east-1) region.
+2. I created a custom VPC using Amazon VPC, configured public and private subnets, and enabled an Internet Gateway and NAT Gateway to manage internet connectivity.
+3. .I added additional public and private subnets in a second Availability Zone and updated the route tables to ensure proper routing for both internet-facing and private traffic.
+4. I created a Security Group named Web Security Group and configured it to allow HTTP (port 80) access from anywhere to enable web traffic.
+5. .I launched an EC2 instance using Amazon EC2 in the public subnet, enabled auto-assign public IP, attached the security group, and selected the required key pair.
 
 ## Output Screenshots (Attach 3)
 
@@ -101,19 +99,26 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 (Insert Screenshot Here)
 
----
+
+<img width="1920" height="1080" alt="Screenshot 2026-10-29 180328" src="https://github.com/user-attachments/assets/5c1b5263-c90d-4719-9f2b-d880f8a4ba83" />
+
+
 
 ### Screenshot 2: EC2 Instance Running
 
 (Insert Screenshot Here)
 
----
+
+<img width="1920" height="1080" alt="Screenshot 2026-10-29 182729" src="https://github.com/user-attachments/assets/dc3f7c05-b2a4-4674-a138-b3ec93312289" />
+
+
 
 ### Screenshot 3: Web Server Output in Browser
 
 (Insert Screenshot Here)
 
----
+<img width="1905" height="890" alt="cloud computing" src="https://github.com/user-attachments/assets/3c189bb6-2807-49fa-a982-5614591617c0" />
+
 
 ## Result 
 
